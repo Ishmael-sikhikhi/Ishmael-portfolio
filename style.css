@@ -55,3 +55,27 @@ img{
 .flex{
     display: flex;
 }
+@media (max-width: 800px){
+    .profile{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media (max-width:688px){
+    .profile{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    h1{
+        text-align: center;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: stretch;
+    }
+}
