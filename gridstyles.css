@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(227, 212, 228);
+}
+.citi img{
+    float: left;
+    padding: 1em;
+}
+
+table,
+  th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.city img{    
+    float: left;
+    padding-top: 50px;
+    /* width: 80%; */
+}
+
+
+  
+table.a {
+    table-layout: auto;
+    width: 100%; 
+    margin-left: 15px; 
+}
+.places img{
+    width: 50%;
+} 
+@media (min-width:992px){
+    .names h3{
+        font-size-adjust: inherit;
+    }
+    .city p{
+        text-align: left;
+        margin-left: 10%;
+    }
+    .city h4{
+        margin-left: 120px;
+    }
+    .box1, .box2, .box3{
+        width: 33.3%;
+    }
+
+    .places{
+        display: flex;
+    }
+    .city img{    
+        float: left;
+        padding-top: 50px;
+        /* width: 80%; */
+    }
+    .places img{
+        float: right;
+        width: 60%;
+    } 
+    .city p{
+        text-align: left;
+        margin-left: 120px;
+    }
+    .city h4{
+        margin-left: 120px;
+    }
+      
+    table.a {
+        table-layout: auto;
+        width: 100%; 
+        margin-left: 15px; 
+    }
+    
+    .city h4{
+        margin-left: 120px;
+    }
+    .city img{    
+        float: left;
+        padding-top: 50px;
+        width: 250px; 
+        height: 200px;
+    }
+    .row-name img{
+        width: 250px;
+    }
+    .row-name{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media only screen and (min-width:689px) and (max-width:992px){
+     .box3 img{
+        float: right;
+        padding: 1em;
+    }
+    .box1  img{
+        float: right;
+        padding: 1em;
+    }
+    .box2 img{
+        float: left;
+        padding: 1em;
+    }
+    .places{
+        display: flex;
+        flex-direction: column;
+    }
+    .box1, .box2, .box3{
+        width: 80%;
+    }
+    .city{
+        width: 100%;
+    }
+    .city p{
+        text-align: left;
+        margin-left: 120px;
+    }
+    .city h4{
+        margin-left: 120px;
+    }
+    .city img{    
+        float: left;
+        padding-top: 50px;
+        width: 250px; 
+        height: 200px;
+    }
+    .row-name img{
+        width: 250px;
+    }
+    
+}
+@media only screen and (max-width:688px){
+    .box2 img{
+        float: left;
+        padding: 1em;
+    }
+    .box1 img{
+        float: right;
+        padding: 1em;
+    }
+     .box3 img{
+        float: right;
+        padding: 1em;
+    }
+    .city img{
+        width: 90%;
+        margin-right: 10px;
+    }
+    .city-col{
+        text-align: left;
+        width: 90%;
+        margin: auto;       
+    }
+    .row-name img{
+            width: 90%;
+    }
+}
