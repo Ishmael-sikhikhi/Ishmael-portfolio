@@ -8,8 +8,11 @@
 
 body{
     font-family: 'Lato', 'sans-serif';
-    color: #555;
+    color: #555;    
 }
+.bg {
+    background: url(./images/bgk.jpg) no-repeat 50% 50%;
+  }
 ul{
     list-style-type: none;
     display: flex;
@@ -39,21 +42,43 @@ img{
 .profile{
     display: flex;
     justify-content: space-around;
+    align-self:stretch;
+}
+.profile img{
+    box-shadow: lightslategrey;
+    border-radius: 50%;
 }
 
-.navigBar{
-    background-color: #756;
-    color: #fff;
-    height: 500px;
-    height: 100%;
-    margin: 5px;
-}
-.navigBar a:hover{
-    border-bottom: #fff;
-}
-
-.flex{
+.myTabs{
     display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 25px;
+}
+.myTabs input[type="radio"]{
+    display: none;
+}
+.myTabs label{
+    padding: 10px;
+    background: rgb(206, 193, 193);
+    font-weight: bolder;
+    padding-left:75px;
+    padding-right: 75px;
+    width: 33%;
+}
+.myTabs .tab{
+    width: 99%;
+    background-color: #fff;
+    padding: 30px;    
+    order: 2;
+    display:  none;
+}
+.myTabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+.myTabs input[type='radio']:checked + label{
+    background-color: #fff;
 }
 @media (max-width: 800px){
     .profile{
