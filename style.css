@@ -9,9 +9,54 @@ body{
     font-family: 'Lato', 'sans-serif';
     color: #555;    
 }
+
 .bg {
     background: url(./images/bgk.jpg) no-repeat 50% 50%;
-  }
+  } 
+.web-page img{
+    float: left;
+    width: 50%;
+    
+    /* padding: 5px; */
+}
+.tdd img{
+    float: left;
+    width: 50%;
+    margin-bottom: 15%;
+    /* padding: 5px; */
+}
+.dom img{
+    float: left;
+    width: 50%;
+    /* padding: 5px; */
+}
+.greetings img{
+    float: left;
+    width: 50%;
+    /* padding: 5px; */
+}
+/* .greetings {
+    margin-top: 10%;
+} */
+.greetings-test img{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.bg1 img{
+    float: inherit;
+}
+.tdd, .dom, .dom-test, .greetings, .greetings-test{
+    margin-top: 3%;
+}
+.web-page a, .tdd a, .dom a, .dom-test a, .greetings a, .greetings-test a{
+    color: blue;
+}
+.dom-test img{
+    float: left;
+    width: 50%;
+    padding: 1px;
+}
 ul{
     list-style-type: none;
     display: flex;
@@ -42,6 +87,9 @@ img{
     display: flex;
     justify-content: space-around;
     align-self:stretch;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .profile img{
     box-shadow: lightslategrey;
@@ -73,11 +121,25 @@ img{
     order: 2;
     display:  none;
 }
+
 .myTabs input[type='radio']:checked + label + .tab {
     display: block;
 }
 .myTabs input[type='radio']:checked + label{
     background-color: #fff;
+}
+.front-end{
+    display: flex;
+}
+
+.dom p{
+    padding: 15px;
+}
+.tdd p{
+    padding: 15px;
+}
+.front{
+    margin-bottom: 5%;
 }
 @media (max-width: 800px){
     .profile{
