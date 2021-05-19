@@ -41,6 +41,10 @@ body{
     float: left;
     width: 50%;
 }
+.registration-test img{
+    float: left;
+    width: 50%;
+}
 
 .bg1 img{
     float: inherit;
