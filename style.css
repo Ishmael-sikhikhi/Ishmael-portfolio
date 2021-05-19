@@ -37,13 +37,20 @@ body{
     float: left;
     width: 50%;   
 }
+.registration img{
+    float: left;
+    width: 50%;
+}
 
 .bg1 img{
     float: inherit;
 }
 
-.web-page a, .tdd a, .dom a, .dom-test a, .greetings a, .greetings-test a{
+a{
     color: blue;
+}
+.tab p{
+    padding: 1.5em;
 }
     
 ul{
