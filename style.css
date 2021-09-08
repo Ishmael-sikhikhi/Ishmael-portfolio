@@ -5,9 +5,29 @@
     padding: 0;
     margin: 0;
 }
+.myHeader{
+    text-align: center;
+    font-style: oblique;
+    font-size: xx-large;
+    font-weight: bold;
+}
 body{
     font-family: 'Lato', 'sans-serif';
-    color: #555;    
+    color: #555;  
+    background-color: aqua;  
+}
+.container{
+    margin-bottom: 50px;
+    max-width: 1000px;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.footer{
+    max-width: 1100px;
+    margin-bottom: 1%;
+    width: 100%;
+    height: 3em;
+    background-color: rgb(248, 250, 252);
 }
 
 .bg {
@@ -44,6 +64,16 @@ body{
 .registration-test img{
     float: left;
     width: 50%;
+}
+
+
+.setttingsWebapp img, .greetingsWebapp img, .registrationNoWebapp img {
+    float: left;
+    width: 50%;
+}
+
+.setttingsWebapp, .greetingsWebapp, .registrationNoWebapp {
+    margin: 11%;
 }
 
 .bg1 img{
