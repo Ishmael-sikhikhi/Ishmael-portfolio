@@ -1,0 +1,20 @@
+{
+  "name": "my-portifolio",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ishmael-sikhikhi/Ishmael-portifolio.git"
+  },
+  "author": "Ishmael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ishmael-sikhikhi/Ishmael-portifolio/issues"
+  },
+  "homepage": "https://github.com/Ishmael-sikhikhi/Ishmael-portifolio#readme",
+  "keywords": [],
+  "description": "Doing portifolio with SASS"
+}
