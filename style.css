@@ -35,35 +35,43 @@ body{
   } 
 .web-page img{
     float: left;
-    width: 50%;    
+    width: 50%;
+    padding: 1em;    
 }
 .tdd img{
     float: left;
     width: 50%;
+    padding: 1em;
 }
 .dom img{
     float: left;
     width: 50%;
+    padding: 1em;
 }
 .dom-test img{
     float: left;
     width: 50%;
+    padding: 1em;
 }
 .greetings img{
     float: left;
     width: 50%;
+    padding: 1em;
 }
 .greetings-test img{
     float: left;
-    width: 50%;   
+    width: 50%;
+    padding: 1em;   
 }
 .registration img{
     float: left;
     width: 50%;
+    padding: 1em;
 }
 .registration-test img{
     float: left;
     width: 50%;
+    padding: 1em;
 }
 
 
@@ -71,11 +79,12 @@ body{
 .waiterAvailability img {
     float: left;
     width: 50%;
+    padding: 1em;
 }
 
-.setttingsWebapp, .greetingsWebapp, .registrationNoWebapp, 
-.waiterAvailability {
-    margin: 11%;
+.clearfix {
+    overflow: auto;
+    zoom: 1;
 }
 
 .bg1 img{
