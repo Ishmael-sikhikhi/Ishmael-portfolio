@@ -67,12 +67,14 @@ body{
 }
 
 
-.setttingsWebapp img, .greetingsWebapp img, .registrationNoWebapp img {
+.setttingsWebapp img, .greetingsWebapp img, .registrationNoWebapp img,
+.waiterAvailability img {
     float: left;
     width: 50%;
 }
 
-.setttingsWebapp, .greetingsWebapp, .registrationNoWebapp {
+.setttingsWebapp, .greetingsWebapp, .registrationNoWebapp, 
+.waiterAvailability {
     margin: 11%;
 }
 
