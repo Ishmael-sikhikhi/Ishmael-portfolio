@@ -1,212 +1,204 @@
+/* 
+  Project Portfolio Styles 
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-.myHeader{
-    text-align: center;
-    font-style: oblique;
-    font-size: xx-large;
-    font-weight: bold;
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #555;
+  background-color: aqua;
 }
-body{
-    font-family: 'Lato', 'sans-serif';
-    color: #555;  
-    background-color: aqua;  
+
+.myHeader {
+  text-align: center;
+  font-style: oblique;
+  font-size: xx-large;
+  font-weight: bold;
 }
-.container{
-    margin-bottom: 50px;
-    max-width: 1000px;
-    margin-left: 13%;
-    margin-right: 13%;
+
+.container {
+  margin-bottom: 50px;
+  max-width: 1000px;
+  margin: 0 auto; /* Center container */
 }
-.footer{
-    max-width: 1100px;
-    margin-bottom: 1%;
-    width: 100%;
-    height: 3em;
-    background-color: rgb(248, 250, 252);
+
+.footer {
+  max-width: 1100px;
+  margin-bottom: 1%;
+  width: 100%;
+  height: 3em;
+  background-color: rgb(248, 250, 252);
+  margin: 0 auto; /* Center container */
 }
 
 .bg {
-    background: url(./images/bgk.jpg) no-repeat 50% 50%;
-  } 
-.web-page img{
-    float: left;
-    width: 50%;
-    padding: 1em;    
-}
-.tdd img{
-    float: left;
-    width: 50%;
-    padding: 1em;
-}
-.dom img{
-    float: left;
-    width: 50%;
-    padding: 1em;
-}
-.dom-test img{
-    float: left;
-    width: 50%;
-    padding: 1em;
-}
-.greetings img{
-    float: left;
-    width: 50%;
-    padding: 1em;
-}
-.greetings-test img{
-    float: left;
-    width: 50%;
-    padding: 1em;   
-}
-.registration img{
-    float: left;
-    width: 50%;
-    padding: 1em;
-}
-.registration-test img{
-    float: left;
-    width: 50%;
-    padding: 1em;
+  background: url(./images/bgk.jpg) no-repeat 50% 50%;
 }
 
-
-.setttingsWebapp img, .greetingsWebapp img, .registrationNoWebapp img,
+/* Image Styles (Consolidated) */
+.web-page img,
+.tdd img,
+.dom img,
+.dom-test img,
+.greetings img,
+.greetings-test img,
+.registration img,
+.registration-test img,
+.setttingsWebapp img,
+.greetingsWebapp img,
+.registrationNoWebapp img,
 .waiterAvailability img {
-    float: left;
-    width: 50%;
-    padding: 1em;
+  float: left;
+  width: 50%;
+  padding: 1em;
 }
 
 .clearfix {
-    overflow: auto;
-    zoom: 1;
+  overflow: auto;
+  zoom: 1;
 }
 
-.bg1 img{
-    float: inherit;
+.bg1 img {
+  float: inherit;
 }
 
-a{
-    color: blue;
-}
-.tab p{
-    padding: 1.5em;
+a {
+  color: blue;
 }
 
-    
-ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: larger;
-    font-stretch: expanded;
-    font-style: oblique;
-    font: 2em sans-serif;
+.tab p {
+  padding: 1.5em;
 }
 
-h1{
-    font-weight: 500;
-    line-height: 1;
-    margin: 10px 0px;
-    font: 4em sans-serif;
-    font-stretch: extra-expanded;
-}
-img{
-    width: 100%;
-    padding:5%;
-    margin: 2%;
-}
-.profile{
-    display: flex;
-    justify-content: space-around;
-    align-self:stretch;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-.profile img{
-    box-shadow: lightslategrey;
-    border-radius: 50%;
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: larger;
+  font-stretch: expanded;
+  font-style: oblique;
+  font: 2em sans-serif;
 }
 
-.myTabs{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin: 25px auto;
-    padding: 25px;
+h1 {
+  font-weight: 500;
+  line-height: 1;
+  margin: 10px 0px;
+  font: 4em sans-serif;
+  font-stretch: extra-expanded;
 }
-.myTabs input[type="radio"]{
-    display: none;
+
+img {
+  width: 100%;
+  padding: 5%;
+  margin: 2%;
 }
-.myTabs label{
-    padding: 10px;
-    background: rgb(206, 193, 193);
-    font-weight: bolder;
-    padding-left:75px;
-    padding-right: 75px;
-    width: 33%;
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-self: stretch;
+  width: 60%;
+  margin: 0 auto; /* Center container */
 }
-.myTabs .tab{
-    width: 99%;
-    background-color: rgb(247, 250, 244);
-    padding: 30px;    
-    order: 2;
-    display:  none;
+
+.profile img {
+  box-shadow: lightslategrey;
+  border-radius: 50%;
+}
+
+.myTabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 25px auto; /* Center container */
+  padding: 25px;
+}
+
+.myTabs input[type="radio"] {
+  display: none;
+}
+
+.myTabs label {
+  padding: 10px;
+  background: rgb(206, 193, 193);
+  font-weight: bolder;
+  padding-left: 75px;
+  padding-right: 75px;
+  width: 33%;
+}
+
+.myTabs .tab {
+  width: 99%;
+  background-color: rgb(247, 250, 244);
+  padding: 30px;
+  order: 2;
+  display: none;
 }
 
 .myTabs input[type='radio']:checked + label + .tab {
-    display: block;
-}
-.myTabs input[type='radio']:checked + label{
-    background-color: #fff;
-}
-.front-end{
-    display: flex;
+  display: block;
 }
 
-.dom p{
-    padding: 15px;
+.myTabs input[type='radio']:checked + label {
+  background-color: #fff;
 }
-.tdd p{
-    padding: 15px;
+
+.front-end {
+  display: flex;
 }
-.front{
-    margin-bottom: 5%;
+
+.dom p,
+.tdd p {
+  padding: 15px;
 }
-@media (max-width: 800px){
-    .profile{
-        display: flex;
-        justify-content: space-around;
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    .front-end{
-        display: flex;
-    }
-    
+
+.front {
+  margin-bottom: 5%;
 }
-@media (max-width:688px){
-    .front-end{
-        display: flex;
-    }
-    .profile{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    h1{
-        text-align: center;
-    }
-    ul{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: stretch;
-    }
+
+/* Responsive Styles */
+
+@media (max-width: 800px) {
+  .profile {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto; /* Center container */
+  }
+
+  .front-end {
+    display: flex;
+  }
+}
+
+@media (max-width: 688px) {
+  .front-end {
+    display: flex;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: stretch;
+  }
 }
