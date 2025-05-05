@@ -166,6 +166,31 @@ img {
   margin-bottom: 5%;
 }
 
+/* Additional styles */
+.tab {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  line-height: 1.7;
+}
+
+.tab h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007acc;
+  text-align: center;
+}
+
+.tab p {
+  margin-bottom: 16px;
+}
+
+
 /* Responsive Styles */
 
 @media (max-width: 800px) {
